@@ -1,9 +1,9 @@
 import React from 'react';
 
-export default function Skills() {
+export default function Setting() {
   return (
     <>
-      <h1>Skills</h1>
+      <h1>Setting</h1>
     </>
   );
 }
