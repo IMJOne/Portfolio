@@ -1,7 +1,13 @@
 import './App.css';
+import { Outlet } from 'react-router-dom';
 
 function App() {
-  return <div>Portfolio</div>;
+  return (
+    <>
+      <h1>Header</h1>
+      <Outlet />
+    </>
+  );
 }
 
 export default App;
