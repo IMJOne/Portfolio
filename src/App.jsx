@@ -1,13 +1,19 @@
-import './App.css';
+import styles from './styles/App.module.css';
 
 import Header from './components/Header';
+import Sidebar from './components/Sidebar';
 import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <>
       <Header />
-      <Outlet />
+      <main className={styles.main}>
+        <Sidebar />
+        <section>
+          <Outlet />
+        </section>
+      </main>
     </>
   );
 }
