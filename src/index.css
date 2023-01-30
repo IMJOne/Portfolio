@@ -1,11 +1,67 @@
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --header-bg: #3c3c3c;
+  --header-text-color: #cfcfd0;
+  --aside-text-color: #ced4da;
+  --sidebar-bg: #333333;
+  --sidebar-icon-color: #858585;
+  --sidebar-active-bg: transparent;
+  --sidebar-active-color: #ffffff;
+  --sidebar--active-border: #ffffff;
+  --explorer-bg: #252526;
+  --explorer-hover-bg: #2a2d2e;
+  --explorer-active-bg: #37373d;
+  --explorer-border-color: #333333;
+  --navbar-bg: #252526;
+  --tabs-bg: #2d2d2d;
+  --tabs-active-color: transparent;
+  --tabs-border-color: #252526;
+  --tabs-text-color: #969696;
+  --tabs-active-text: #ffffff;
+  --main-bg: #1e1e1e;
+  --home-visual-fill: #171717;
+  --project-bg: #252526;
+  --theme-btn-bg: #176f2c;
+  --footer-bg: #007acc;
+  --text-color: #efefef;
+  --accent-color: #0066b7;
+
+  --font-small: 0.875rem;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Pretendard';
 }
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+a {
+  text-decoration: none;
 }
