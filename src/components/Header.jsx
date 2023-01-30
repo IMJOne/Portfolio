@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from '../styles/Header.module.css';
 
-import vscode from '../icons/vscode.svg';
-import min from '../icons/min.svg';
-import expand from '../icons/expand.svg';
-import close from '../icons/close.svg';
+import VscodeIcon from '../icons/VscodeIcon';
+import MinIcon from '../icons/MinIcon';
+import ExpandIcon from '../icons/ExpandIcon';
+import CloseIcon from '../icons/CloseIcon';
 
 export default function Header() {
   const menuList = [
@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.left}>
-        <img src={vscode} alt="visual stuido code" />
+        <VscodeIcon />
         <ul className={styles.menu}>
           {menuList.map((item, index) => (
             <li className={styles.item} key={index}>
@@ -34,13 +34,13 @@ export default function Header() {
       <div className={styles.title}>Visual Jungwon Code</div>
       <div className={styles.right}>
         <button className={styles.icon}>
-          <img src={min} alt="최소화" />
+          <MinIcon />
         </button>
         <button className={styles.icon}>
-          <img src={expand} alt="최대화" />
+          <ExpandIcon />
         </button>
         <button className={styles.icon}>
-          <img src={close} alt="닫기" />
+          <CloseIcon />
         </button>
       </div>
     </header>
