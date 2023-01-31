@@ -26,7 +26,6 @@
   column-gap: 0.4rem;
   height: 26px;
   color: var(--aside-text-color);
-  font-weight: var(--weight-light);
   font-size: var(--font-small);
   padding: 0.3rem 0.5rem;
 }

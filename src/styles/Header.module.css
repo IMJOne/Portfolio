@@ -7,6 +7,7 @@
   color: var(--header-text-color);
   padding: 0 0.8rem;
   font-size: var(--font-small);
+  font-weight: 500;
 }
 .left {
   display: flex;
