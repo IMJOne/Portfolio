@@ -1,0 +1,35 @@
+.explorer {
+  width: 172px;
+  background: var(--explorer-bg);
+  color: var(--aside-text-color);
+}
+.title {
+  height: 36px;
+  line-height: 36px;
+  padding: 0 1.25rem;
+  font-size: var(--font-small);
+  border-bottom: 1px solid var(--explorer-border-color);
+}
+.workspace {
+  display: flex;
+  align-items: center;
+  column-gap: 0.2rem;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 0.4rem;
+  font-size: var(--font-small);
+  text-transform: uppercase;
+}
+.file {
+  display: flex;
+  align-items: center;
+  column-gap: 0.4rem;
+  height: 26px;
+  color: var(--aside-text-color);
+  font-weight: var(--weight-light);
+  font-size: var(--font-small);
+  padding: 0.3rem 0.5rem;
+}
+.name {
+  font-weight: 300;
+}
