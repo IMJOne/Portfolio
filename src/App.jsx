@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Explorer from './components/Explorer';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       <main className={styles.main}>
         <Sidebar />
         <Explorer />
-        <section>
+        <section className={styles.section}>
+          <Navbar />
           <Outlet />
         </section>
       </main>

@@ -17,11 +17,11 @@
   --explorer-active-bg: #37373d;
   --explorer-border-color: #333333;
   --navbar-bg: #252526;
-  --tabs-bg: #2d2d2d;
-  --tabs-active-color: transparent;
-  --tabs-border-color: #252526;
-  --tabs-text-color: #969696;
-  --tabs-active-text: #ffffff;
+  --tab-bg: #2d2d2d;
+  --tab-active-color: transparent;
+  --tab-border-color: #252526;
+  --tab-text-color: #969696;
+  --tab-active-text: #ffffff;
   --main-bg: #1e1e1e;
   --home-visual-fill: #171717;
   --project-bg: #252526;
