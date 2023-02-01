@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   background: var(--navbar-bg);
+  overflow-y: auto;
 }
 .item {
   display: flex;
@@ -10,7 +11,6 @@
   background: var(--item-bg);
   color: var(--item-text-color);
   font-size: var(--font-small);
-  white-space: nowrap;
   padding: 0 1rem;
   border-top: 1px solid transparent;
   border-right: 1px solid var(--item-border-color);
