@@ -5,7 +5,7 @@ import JavaScriptIcon from '../icons/JavaScriptIcon';
 import JsonIcon from '../icons/JsonIcon';
 import ReadmeIcon from '../icons/ReadmeIcon';
 
-export const files = [
+export const menu = [
   {
     Icon: ReactIcon,
     path: '/',

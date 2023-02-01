@@ -2,17 +2,23 @@
   display: flex;
   background: var(--navbar-bg);
 }
-.tab {
+.item {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
   height: 36px;
-  background: var(--tab-bg);
-  color: var(--tab-text-color);
+  background: var(--item-bg);
+  color: var(--item-text-color);
   font-size: var(--font-small);
   white-space: nowrap;
   padding: 0 1rem;
   border-top: 1px solid transparent;
-  border-right: 1px solid var(--tab-border-color);
+  border-right: 1px solid var(--item-border-color);
   cursor: pointer;
+}
+.active {
+  background: var(--main-bg);
+  color: var(--item-active-text);
+  font-weight: 400;
+  border-top: 1px solid var(--item-active-border);
 }

@@ -1,27 +1,21 @@
-@font-face {
-  font-family: 'D2Coding';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
+/* Variable */
 :root {
+  /* Color */
   --header-bg: #3c3c3c;
   --header-text-color: #cfcfd0;
-  --aside-text-color: #ced4da;
   --sidebar-bg: #333333;
   --sidebar-active-bg: transparent;
   --sidebar--active-border: #ffffff;
   --explorer-bg: #252526;
-  --explorer-hover-bg: #2a2d2e;
   --explorer-active-bg: #37373d;
   --explorer-border-color: #333333;
+  --explorer-text-color: #ced4da;
   --navbar-bg: #252526;
-  --tab-bg: #2d2d2d;
-  --tab-active-color: transparent;
-  --tab-border-color: #252526;
-  --tab-text-color: #969696;
-  --tab-active-text: #ffffff;
+  --item-bg: #2d2d2d;
+  --item-text-color: #969696;
+  --item-border-color: #252526;
+  --item-active-text: #ffffff;
+  --item-active-border: transparent;
   --main-bg: #1e1e1e;
   --home-visual-fill: #171717;
   --project-bg: #252526;
@@ -30,18 +24,23 @@
   --text-color: #efefef;
   --accent-color: #0066b7;
 
+  /* Font */
+  --font-family-pretendard: 'Pretendard Variable';
+  --font-family-code: 'IBM Plex Mono', 'Pretendard Variable';
   --font-small: 0.875rem;
 }
 
+/* Global */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Pretendard Variable';
+  font-family: var(--font-family-pretendard);
 }
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  user-select: none;
 }
 li {
   list-style: none;
@@ -54,4 +53,5 @@ button {
 }
 a {
   text-decoration: none;
+  color: var(--text-color);
 }

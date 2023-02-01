@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styles from '../styles/Sidebar.module.css';
+import { Link, useLocation } from 'react-router-dom';
 
 import FileIcon from '../icons/FileIcon';
 import CodeIcon from '../icons/CodeIcon';
@@ -23,10 +23,13 @@ const bottomMenu = [
 ];
 
 export default function Sidebar() {
+  const location = new useLocation();
+  const pathName = location.pathname;
+
   const createMenu = menu => {
     return menu.map(({ Icon, path, text }, index) => (
-      <Link key={index} className={styles.menu} to={path}>
-        <Icon className={styles.icon} />
+      <Link key={index} className={`${styles.item} ${pathName === path && styles.active}`} to={path}>
+        <Icon className={styles.icon} fill={pathName === path ? '#ffffff' : '#858585'} />
         <div className={styles.tooltip}>{text}</div>
       </Link>
     ));

@@ -7,3 +7,7 @@
 .section {
   width: calc(100% - 220px);
 }
+.article {
+  height: calc(100% - 36px);
+  padding: 2rem;
+}

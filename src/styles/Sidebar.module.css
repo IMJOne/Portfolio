@@ -6,7 +6,7 @@
   justify-content: space-between;
   background: var(--sidebar-bg);
 }
-.menu {
+.item {
   position: relative;
   display: flex;
   justify-content: center;
@@ -14,14 +14,15 @@
   height: 48px;
   border-left: 2px solid transparent;
 }
-.menu:hover .icon {
+.item:hover .icon {
   fill: #ffffff;
 }
-.menu:hover .tooltip {
+.item:hover .tooltip {
   transform: scale(1);
 }
-.icon {
-  fill: #858585;
+.active {
+  background: var(--sidebar-active-bg);
+  border-left: 2px solid var(--sidebar--active-border);
 }
 .tooltip {
   position: absolute;

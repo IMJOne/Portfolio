@@ -16,7 +16,9 @@ function App() {
         <Explorer />
         <section className={styles.section}>
           <Navbar />
-          <Outlet />
+          <article className={styles.article}>
+            <Outlet />
+          </article>
         </section>
       </main>
       <Footer />

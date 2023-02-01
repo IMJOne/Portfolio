@@ -1,14 +1,17 @@
 import React from 'react';
 import styles from '../styles/Navbar.module.css';
 
-import { Link } from 'react-router-dom';
-import { files } from '../util/files';
+import { Link, useLocation } from 'react-router-dom';
+import { menu } from '../util/menu';
 
 export default function Navbar() {
+  const location = new useLocation();
+  const pathName = location.pathname;
+
   return (
     <nav className={styles.navbar}>
-      {files.map(({ Icon, path, text }, index) => (
-        <Link className={styles.tab} key={index} to={path}>
+      {menu.map(({ Icon, path, text }, index) => (
+        <Link className={`${styles.item} ${pathName === path && styles.active}`} key={index} to={path}>
           <Icon />
           <span className={styles.name}>{text}</span>
         </Link>
