@@ -23,6 +23,8 @@
   --footer-bg: #007acc;
   --text-color: #efefef;
   --accent-color: #0066b7;
+  --scrollbar-thumb-bg: #424242;
+  --scrollbar-thumb-hover: #4f4f4f;
 
   /* Font */
   --font-family-pretendard: 'Pretendard Variable';
@@ -54,4 +56,19 @@ button {
 a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+::-webkit-scrollbar-track {
+  background: transparent;
 }
