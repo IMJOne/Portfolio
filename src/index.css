@@ -28,7 +28,7 @@
 
   /* Font */
   --font-family-pretendard: 'Pretendard Variable';
-  --font-family-code: 'IBM Plex Mono', 'Pretendard Variable';
+  --font-family-code: 'IBM Plex Mono';
   --font-small: 0.875rem;
 }
 
@@ -37,11 +37,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: var(--font-family-pretendard);
 }
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: var(--font-family-pretendard);
   user-select: none;
 }
 li {

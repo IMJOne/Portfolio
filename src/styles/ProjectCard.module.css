@@ -12,14 +12,15 @@
 .preview {
   position: relative;
 }
-.tag {
+.category {
   position: absolute;
-  top: 25%;
-  left: 12%;
+  top: 19%;
+  left: 11%;
   width: 100%;
   background: var(--accent-color);
   transform: translate(-50%, -50%) rotate(-45deg);
   padding: 0.5rem 0;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
@@ -109,6 +110,9 @@
 }
 :global .postcss {
   border: 1px solid #dd3a0a;
+}
+:global .tailwind {
+  border: 1px solid #06b6d4;
 }
 :global .firebase {
   border: 1px solid #ffca28;

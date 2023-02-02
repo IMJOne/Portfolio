@@ -5,6 +5,7 @@ import BootstrapIcon from '../icons/BootstrapIcon';
 import SassIcon from '../icons/SassIcon';
 import ReactIcon from '../icons/ReactIcon';
 import PostCssIcon from '../icons/PostCssIcon';
+import TailwindIcon from '../icons/TailwindIcon';
 import FirebaseIcon from '../icons/FirebaseIcon';
 
 import GithubIcon from '../icons/GithubIcon';
@@ -12,9 +13,9 @@ import DemoIcon from '../icons/DemoIcon';
 import NotionIcon from '../icons/NotionIcon';
 import FigmaIcon from '../icons/FigmaIcon';
 
-export const project = [
+export const projectList = [
   {
-    tag: '👑 Only',
+    category: 'web',
     image: 'images/vscode.png',
     title: 'VSCode Portfolio',
     description: '비주얼 스튜디오 코드 컨셉의 포트폴리오 사이트입니다. 취향에 따라 Dracula 테마로 변경이 가능합니다.',
@@ -42,7 +43,35 @@ export const project = [
     ],
   },
   {
-    tag: '🚀 Toy',
+    category: 'web',
+    image: 'images/youtube.png',
+    title: 'YouTube',
+    description: '유튜브 클론 코딩 사이트입니다. 동영상 검색/재생 및 연관된 동영상/댓글 목록 조회가 가능합니다.',
+    skills: [
+      { Icon: ReactIcon, name: 'React' },
+      { Icon: TailwindIcon, name: 'Tailwind' },
+      { Icon: FirebaseIcon, name: 'Firebase' },
+    ],
+    links: [
+      {
+        Icon: GithubIcon,
+        name: 'Github',
+        url: '#',
+      },
+      {
+        Icon: DemoIcon,
+        name: 'Demo',
+        url: '#',
+      },
+      {
+        Icon: NotionIcon,
+        name: 'Notion',
+        url: '#',
+      },
+    ],
+  },
+  {
+    category: 'toy',
     image: 'images/diary.png',
     title: 'Emotion Diary',
     description: '오늘의 감정을 함께 기록할 수 있는 감정 일기장입니다. 일기 추가/수정/삭제/저장이 가능합니다.',
@@ -70,7 +99,7 @@ export const project = [
     ],
   },
   {
-    tag: '🚀 Toy',
+    category: 'toy',
     image: 'images/todo-react.png',
     title: 'Todo List (React)',
     description: '리액트 버전 투두 리스트입니다. 진행 상황 필터링 및 다크모드 기능이 새롭게 추가되었습니다.',
@@ -82,12 +111,12 @@ export const project = [
       {
         Icon: GithubIcon,
         name: 'Github',
-        url: 'https://github.com/IMJOne/to-do-list',
+        url: 'https://github.com/IMJOne/to-do-react',
       },
       {
         Icon: DemoIcon,
         name: 'Demo',
-        url: '#',
+        url: 'https://jone-to-do.netlify.app/',
       },
       {
         Icon: NotionIcon,
@@ -97,7 +126,7 @@ export const project = [
     ],
   },
   {
-    tag: '🚀 Toy',
+    category: 'toy',
     image: 'images/tetris.png',
     title: 'Tetris',
     description: '바닐라 자바스크립트로 제작한 테트리스 게임입니다. 배열과 구조 분해 할당을 통해 블럭들을 관리합니다.',
@@ -125,7 +154,7 @@ export const project = [
     ],
   },
   {
-    tag: '🚀 Toy',
+    category: 'toy',
     image: 'images/fish.png',
     title: 'Catch the fish!',
     description: '바닐라 자바스크립트로 제작한 미니 게임입니다. 클래스 문법을 통해 함수들을 기능별로 모듈화하였습니다.',
@@ -153,7 +182,7 @@ export const project = [
     ],
   },
   {
-    tag: '🚀 Toy',
+    category: 'toy',
     image: 'images/paint.png',
     title: 'Paint app',
     description: '바닐라 자바스크립트로 제작한 미니 그림판입니다. 사용자의 눈을 보호하기 위한 다크모드를 지원합니다.',
@@ -181,7 +210,7 @@ export const project = [
     ],
   },
   {
-    tag: '🚀 Toy',
+    category: 'toy',
     image: 'images/lovetype.png',
     title: 'Twelve love type',
     description: '12가지 연애 유형 심리테스트 사이트입니다. 결과 화면을 카카오톡으로 공유할 수 있습니다.',
@@ -210,7 +239,7 @@ export const project = [
     ],
   },
   {
-    tag: '🚀 Toy',
+    category: 'toy',
     image: 'images/todo.png',
     title: 'TO-DO List',
     description: '심플 투두 리스트입니다. 추가/삭제된 리스트들이 로컬 스토리지에 저장됩니다.',
@@ -238,7 +267,7 @@ export const project = [
     ],
   },
   {
-    tag: '🌏 Web',
+    category: 'web',
     image: 'images/apple.png',
     title: 'Apple',
     description: 'Apple iPad 소개 페이지입니다. 별도의 라이브러리 사용 없이 바닐라 자바스크립트로 제작되었습니다.',
@@ -266,7 +295,7 @@ export const project = [
     ],
   },
   {
-    tag: '📱 Mobile',
+    category: 'mobile',
     image: 'images/starbucks.png',
     title: 'Starbucks',
     description: 'Starbucks PWA 리뉴얼 사이트입니다. 매장 지도 및 메뉴 검색 등의 기능이 구현되어 있습니다.',
@@ -284,7 +313,7 @@ export const project = [
       {
         Icon: DemoIcon,
         name: 'Demo',
-        url: 'https://imjone.github.io/apple/',
+        url: 'https://imjone.github.io/starbucks/',
       },
       {
         Icon: FigmaIcon,
@@ -294,7 +323,7 @@ export const project = [
     ],
   },
   {
-    tag: '📱 Mobile',
+    category: 'mobile',
     image: 'images/beartalk.png',
     title: 'Bear Talk',
     description: '카카오톡 디자인을 참고하여 제작한 베어톡입니다. SCSS를 사용하여 빠르게 스타일링 하였습니다.',
@@ -307,22 +336,22 @@ export const project = [
       {
         Icon: GithubIcon,
         name: 'Github',
-        url: 'https://github.com/IMJOne/notion',
+        url: 'https://github.com/IMJOne/bear-talk',
       },
       {
         Icon: DemoIcon,
         name: 'Demo',
-        url: 'https://imjone.github.io/notion/',
+        url: 'https://imjone.github.io/bear-talk/',
       },
       {
         Icon: NotionIcon,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/Notion-7260e6b7c68e467995630c2e52b664d5',
+        url: 'https://www.notion.so/imjone/BearTalk-31aa513be24941818f2ee5c65ec71eef',
       },
     ],
   },
   {
-    tag: '🌏 Web',
+    category: 'web',
     image: 'images/portfolio.png',
     title: 'Portfolio (2021 ver)',
     description: '저의 첫 포트폴리오 사이트입니다. 스크롤값을 감시하며 현재 섹션에 따라 메뉴가 활성화됩니다.',
@@ -350,7 +379,7 @@ export const project = [
     ],
   },
   {
-    tag: '🌏 Web',
+    category: 'web',
     image: 'images/notion.png',
     title: 'Notion',
     description: 'Notion 공식 웹사이트를 클론 코딩했습니다. 모바일과 PC 모두 보기 편하도록 반응형으로 제작되었습니다.',

@@ -2,11 +2,12 @@ import React from 'react';
 import styles from '../styles/ProjectCard.module.css';
 
 export default function ProjectCard({ project }) {
-  const { tag, image, title, description, skills, links } = project;
+  const { category, image, title, description, skills, links } = project;
+
   return (
     <div className={styles.card}>
       <div className={styles.preview}>
-        <div className={styles.tag}>{tag}</div>
+        <div className={styles.category}>{category}</div>
         <img className={styles.image} src={image} alt={title} />
       </div>
       <div className={styles.content}>
