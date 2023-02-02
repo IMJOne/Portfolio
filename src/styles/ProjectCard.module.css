@@ -1,0 +1,131 @@
+.card {
+  cursor: pointer;
+  background: var(--project-bg);
+  color: var(--text-color);
+  border-radius: 1rem;
+  transition: box-shadow 300ms;
+  overflow: hidden;
+}
+.card:hover {
+  box-shadow: 0 4px 5px -2px rgb(0 0 0 / 30%), 0 7px 10px 1px rgb(0 0 0 / 24%), 0 2px 16px 1px rgb(0 0 0 / 22%);
+}
+.preview {
+  position: relative;
+}
+.tag {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  width: 100%;
+  background: var(--accent-color);
+  transform: translate(-50%, -50%) rotate(-45deg);
+  padding: 0.5rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0 0 1rem 1rem;
+}
+.content {
+  padding: 1rem;
+}
+.info {
+  font-size: var(--font-small);
+}
+.description {
+  font-size: var(--font-small);
+  line-height: 1.4;
+  margin: 1rem 0;
+}
+.skill_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.3rem;
+  padding: 0.4rem 0.6rem;
+  border-radius: 1rem;
+}
+.skill_name {
+  font-size: 0.75rem;
+}
+.link_wrap {
+  display: flex;
+  justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.link {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+}
+.link:hover .link_icon {
+  opacity: 0.1;
+}
+.link:hover .link_name {
+  opacity: 1;
+}
+.link_icon {
+  transition: opacity 300ms;
+}
+.link_name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 14px;
+  transition: opacity 300ms;
+}
+
+:global .html {
+  border: 1px solid #e34f26;
+}
+:global .css {
+  border: 1px solid #2ea5d6;
+}
+:global .javascript {
+  border: 1px solid #f7df1e;
+}
+:global .react {
+  border: 1px solid #61dafb;
+}
+:global .bootstrap {
+  border: 1px solid #7952b3;
+}
+:global .scss {
+  border: 1px solid #cd6799;
+}
+:global .postcss {
+  border: 1px solid #dd3a0a;
+}
+:global .firebase {
+  border: 1px solid #ffca28;
+}
+
+@media screen and (max-width: 768px) {
+  .skill_wrap {
+    gap: 0.4rem;
+  }
+  .skill {
+    padding: 0.4rem 0.5rem;
+  }
+  .link_wrap {
+    padding: 0.6rem;
+  }
+  .link_icon {
+    width: 28px;
+    height: 28px;
+  }
+}

@@ -57,6 +57,22 @@ a {
   text-decoration: none;
   color: var(--text-color);
 }
+h1 {
+  color: var(--text-color);
+  font: bold 3rem / 100% var(--font-family-code);
+  height: 48px;
+}
+h2 {
+  color: var(--text-color);
+  font: bold 2.5rem var(--font-family-code);
+  margin-bottom: 0.5em;
+}
+h3 {
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 0.2em;
+}
 
 /* Scrollbar */
 ::-webkit-scrollbar {
@@ -71,4 +87,25 @@ a {
 }
 ::-webkit-scrollbar-track {
   background: transparent;
+}
+
+/* Responsive */
+@media screen and (max-width: 1023px) {
+  h1 {
+    height: 40px;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    height: 24px;
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
 }
