@@ -35,6 +35,7 @@
 }
 .info {
   font-size: var(--font-small);
+  margin-top: 0.5rem;
 }
 .description {
   font-size: var(--font-small);
