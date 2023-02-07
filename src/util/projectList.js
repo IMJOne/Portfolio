@@ -44,6 +44,34 @@ export const projectList = [
   },
   {
     category: 'web',
+    image: 'images/lacoste.png',
+    title: 'Lacoste',
+    description: '라코스테 쇼핑몰 사이트입니다. 로그인 및 로그아웃, 제품 상세 보기, 장바구니 추가 등이 가능합니다.',
+    skills: [
+      { Icon: ReactIcon, name: 'React' },
+      { Icon: TailwindIcon, name: 'Tailwind' },
+      { Icon: FirebaseIcon, name: 'Firebase' },
+    ],
+    links: [
+      {
+        Icon: GithubIcon,
+        name: 'Github',
+        url: '#',
+      },
+      {
+        Icon: DemoIcon,
+        name: 'Demo',
+        url: '#',
+      },
+      {
+        Icon: NotionIcon,
+        name: 'Notion',
+        url: '#',
+      },
+    ],
+  },
+  {
+    category: 'web',
     image: 'images/youtube.png',
     title: 'YouTube',
     description: '유튜브 클론 코딩 사이트입니다. 동영상 검색/재생 및 연관된 동영상/댓글 목록 조회가 가능합니다.',
@@ -383,6 +411,34 @@ export const projectList = [
     image: 'images/notion.png',
     title: 'Notion',
     description: 'Notion 공식 웹사이트를 클론 코딩했습니다. 모바일과 PC 모두 보기 편하도록 반응형으로 제작되었습니다.',
+    skills: [
+      { Icon: HtmlIcon, name: 'HTML' },
+      { Icon: CssIcon, name: 'CSS' },
+      { Icon: JavaScriptIcon, name: 'JavaScript' },
+    ],
+    links: [
+      {
+        Icon: GithubIcon,
+        name: 'Github',
+        url: 'https://github.com/IMJOne/notion',
+      },
+      {
+        Icon: DemoIcon,
+        name: 'Demo',
+        url: 'https://imjone.github.io/notion/',
+      },
+      {
+        Icon: NotionIcon,
+        name: 'Notion',
+        url: 'https://www.notion.so/imjone/Notion-7260e6b7c68e467995630c2e52b664d5',
+      },
+    ],
+  },
+  {
+    category: 'web',
+    image: 'images/binggrae.png',
+    title: 'Binggrae',
+    description: '빙그레 공식 웹사이트를 클론 코딩했습니다. 모바일과 PC 모두 보기 편하도록 반응형으로 제작되었습니다.',
     skills: [
       { Icon: HtmlIcon, name: 'HTML' },
       { Icon: CssIcon, name: 'CSS' },
