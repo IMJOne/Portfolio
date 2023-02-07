@@ -11,7 +11,8 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Study from './pages/Study';
 import Readme from './pages/Readme';
-import Setting from './pages/Setting';
+import Theme from './pages/Theme';
+import ThemeProvider from './context/ThemeProvider';
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
       { path: '/study', element: <Study /> },
       { path: '/projects', element: <Projects /> },
       { path: '/readme', element: <Readme /> },
-      { path: '/setting', element: <Setting /> },
+      { path: '/theme', element: <Theme /> },
     ],
   },
 ]);
@@ -33,8 +34,10 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}>
-      <App />
-    </RouterProvider>
+    <ThemeProvider>
+      <RouterProvider router={router}>
+        <App />
+      </RouterProvider>
+    </ThemeProvider>
   </React.StrictMode>
 );

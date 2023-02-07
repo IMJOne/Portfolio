@@ -19,7 +19,7 @@ const topMenu = [
 ];
 const bottomMenu = [
   { Icon: UserIcon, path: '/readme', text: 'readme' },
-  { Icon: SettingIcon, path: '/setting', text: 'setting' },
+  { Icon: SettingIcon, path: '/theme', text: 'theme' },
 ];
 
 export default function Sidebar() {

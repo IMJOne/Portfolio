@@ -32,6 +32,31 @@
   --font-small: 0.875rem;
 }
 
+[data-theme='dracula'] {
+  --header-bg: #191a21;
+  --header-text-color: #f8f8f2;
+  --sidebar-bg: #343746;
+  --sidebar-active-bg: #3c3d51;
+  --sidebar--active-border: #ff79c6;
+  --sidebar-icon-color: #6272a4;
+  --explorer-bg: #21222c;
+  --explorer-hover-bg: #313341;
+  --explorer-active-bg: #313341;
+  --explorer-border-color: transparent;
+  --navbar-bg: #191a21;
+  --item-bg: #21222c;
+  --item-text-color: #6272a4;
+  --item-active-color: #ff79c6;
+  --item-border-color: #191a21;
+  --item-active-text: #f8f8f2;
+  --main-bg: #282a36;
+  --home-visual-fill: #1c1d26;
+  --project-bg: #21222c;
+  --footer-bg: #191a21;
+  --accent-color: #ff79c6;
+  --theme-btn-bg: #44475a;
+}
+
 /* Global */
 * {
   margin: 0;
@@ -56,6 +81,9 @@ button {
 a {
   text-decoration: none;
   color: var(--text-color);
+}
+img {
+  max-width: 100%;
 }
 h1 {
   color: var(--text-color);

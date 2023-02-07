@@ -5,6 +5,9 @@
   align-items: center;
   height: 100%;
 }
+.visual {
+  fill: var(--home-visual-fill);
+}
 .title {
   padding-right: 0.2em;
   border-right: 4px solid var(--accent-color);

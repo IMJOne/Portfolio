@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.items {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  align-items: center;
+  row-gap: 2rem;
+  text-align: center;
+}
+.image {
+  width: 50%;
+  margin: auto;
+}
+.name {
+  text-transform: capitalize;
+  font-family: var(--font-family-code);
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+.button {
+  width: 150px;
+  height: 48px;
+  background: var(--theme-btn-bg);
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 1.25rem;
+  border: 4px solid transparent;
+}
+.selected {
+  border: 4px solid var(--text-color);
+}
