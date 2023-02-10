@@ -56,17 +56,17 @@ export const projectList = [
       {
         Icon: GithubIcon,
         name: 'Github',
-        url: '#',
+        url: 'https://github.com/IMJOne/lacoste',
       },
       {
         Icon: DemoIcon,
         name: 'Demo',
-        url: '#',
+        url: 'https://jone-lacoste.netlify.app/',
       },
       {
         Icon: NotionIcon,
         name: 'Notion',
-        url: '#',
+        url: 'https://www.notion.so/imjone/Lacoste-9d78c5adf550498580463c0f9d0d82eb?pvs=4',
       },
     ],
   },
@@ -84,17 +84,17 @@ export const projectList = [
       {
         Icon: GithubIcon,
         name: 'Github',
-        url: '#',
+        url: 'https://github.com/IMJOne/youtube',
       },
       {
         Icon: DemoIcon,
         name: 'Demo',
-        url: '#',
+        url: 'https://jone-youtube.netlify.app/',
       },
       {
         Icon: NotionIcon,
         name: 'Notion',
-        url: '#',
+        url: 'https://www.notion.so/imjone/Youtube-ad0edcc0e5924199a9e4962f6c298b9b?pvs=4',
       },
     ],
   },
