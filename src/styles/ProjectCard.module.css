@@ -1,7 +1,6 @@
 .card {
   cursor: pointer;
   background: var(--project-bg);
-  color: var(--text-color);
   border-radius: 1rem;
   transition: box-shadow 300ms;
   overflow: hidden;

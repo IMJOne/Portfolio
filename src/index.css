@@ -23,8 +23,8 @@
   --footer-bg: #007acc;
   --text-color: #efefef;
   --accent-color: #0066b7;
-  --scrollbar-thumb-bg: #424242;
-  --scrollbar-thumb-hover: #4f4f4f;
+  --scrollbar-bg: #424242;
+  --scrollbar-hover-bg: #4f4f4f;
 
   /* Font */
   --font-family-pretendard: 'Pretendard Variable';
@@ -55,6 +55,8 @@
   --footer-bg: #191a21;
   --accent-color: #ff79c6;
   --theme-btn-bg: #44475a;
+  --scrollbar-bg: #484950;
+  --scrollbar-hover-bg: #525356;
 }
 
 /* Global */
@@ -66,6 +68,7 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
   font-family: var(--font-family-pretendard);
   user-select: none;
 }
@@ -86,17 +89,15 @@ img {
   max-width: 100%;
 }
 h1 {
-  color: var(--text-color);
   font: bold 3rem / 100% var(--font-family-code);
   height: 48px;
 }
 h2 {
-  color: var(--text-color);
-  font: bold 2.5rem var(--font-family-code);
+  font: bold 3rem var(--font-family-code);
+  text-align: center;
   margin-bottom: 0.5em;
 }
 h3 {
-  color: var(--text-color);
   font-weight: bold;
   font-size: 2rem;
 }
@@ -104,13 +105,13 @@ h3 {
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
-  height: 12px;
+  height: 8px;
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb-bg);
+  background: var(--scrollbar-bg);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--scrollbar-thumb-hover);
+  background: var(--scrollbar-hover-bg);
 }
 ::-webkit-scrollbar-track {
   background: transparent;

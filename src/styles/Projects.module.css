@@ -1,18 +1,9 @@
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-  /* opacity: 0; */
-}
-.end {
-  opacity: 1;
-  transition: opacity 500ms;
-}
 .filter_wrap {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-bottom: 2rem;
 }
 .filter {
   display: flex;
@@ -42,6 +33,11 @@
   border-radius: 50%;
   font-size: 1rem;
   font-weight: bold;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
