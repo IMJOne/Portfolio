@@ -8,10 +8,8 @@ import PostCssIcon from '../icons/PostCssIcon';
 import TailwindIcon from '../icons/TailwindIcon';
 import FirebaseIcon from '../icons/FirebaseIcon';
 
-import GithubIcon from '../icons/GithubIcon';
-import DemoIcon from '../icons/DemoIcon';
-import NotionIcon from '../icons/NotionIcon';
-import FigmaIcon from '../icons/FigmaIcon';
+import { RxGithubLogo, RxNotionLogo, RxFigmaLogo } from 'react-icons/rx';
+import { MdDesktopWindows } from 'react-icons/md';
 
 export const projectList = [
   {
@@ -26,17 +24,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: '#',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: '#',
       },
       {
-        Icon: FigmaIcon,
+        Icon: RxFigmaLogo,
         name: 'Figma',
         url: 'https://www.figma.com/proto/9DLDm5AkSNwldlbeTGOOQW/Portfolio?node-id=10%3A1555&scaling=contain&page-id=0%3A1&starting-point-node-id=10%3A1555',
       },
@@ -54,17 +52,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/lacoste',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://jone-lacoste.netlify.app/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/Lacoste-9d78c5adf550498580463c0f9d0d82eb?pvs=4',
       },
@@ -82,17 +80,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/youtube',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://jone-youtube.netlify.app/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/Youtube-ad0edcc0e5924199a9e4962f6c298b9b?pvs=4',
       },
@@ -110,17 +108,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/emotion-diary',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://emotion-diary-jone.web.app/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/Emotion-diary-8a01a0f8e2fd43e2b84576eb631f6fb2',
       },
@@ -137,17 +135,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/to-do-react',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://jone-to-do.netlify.app/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/React-TO-DO-LIST-bd42d365689243d0b7547d115cefee7b',
       },
@@ -165,17 +163,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/tetris',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/tetris/',
       },
       {
-        Icon: FigmaIcon,
+        Icon: RxFigmaLogo,
         name: 'Figma',
         url: 'https://www.notion.so/imjone/2d36893b850046a882a20f1f0451a029',
       },
@@ -193,17 +191,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/catch-the-fish',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/catch-the-fish/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/0f2e6609e83d43e2838d933a9c9c5b39',
       },
@@ -221,17 +219,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/paint-app',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/paint-app/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/3b7fa527999141cbbe0b2885a43fed05',
       },
@@ -250,17 +248,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/twelvelovetype',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/twelvelovetype/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/1889c7cd3b084a5ba8196bf05de98ffb',
       },
@@ -278,17 +276,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/to-do-list',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/to-do-list/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/d5d802305fa6461b8c3b410fa96528e6',
       },
@@ -306,17 +304,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/apple',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/apple/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/Apple-com-ba7b279ed3c643eb88a3439cb004d3c3',
       },
@@ -334,17 +332,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/starbucks',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/starbucks/',
       },
       {
-        Icon: FigmaIcon,
+        Icon: RxFigmaLogo,
         name: 'Figma',
         url: 'https://www.figma.com/proto/ff4zKrR8CIZ3iIMb3aPndB/Starbucks?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2',
       },
@@ -362,17 +360,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/bear-talk',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/bear-talk/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/BearTalk-31aa513be24941818f2ee5c65ec71eef',
       },
@@ -390,17 +388,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/notion',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/notion/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/Notion-7260e6b7c68e467995630c2e52b664d5',
       },
@@ -418,17 +416,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/notion',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/notion/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/Notion-7260e6b7c68e467995630c2e52b664d5',
       },
@@ -446,17 +444,17 @@ export const projectList = [
     ],
     links: [
       {
-        Icon: GithubIcon,
+        Icon: RxGithubLogo,
         name: 'Github',
         url: 'https://github.com/IMJOne/notion',
       },
       {
-        Icon: DemoIcon,
+        Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/notion/',
       },
       {
-        Icon: NotionIcon,
+        Icon: RxNotionLogo,
         name: 'Notion',
         url: 'https://www.notion.so/imjone/Notion-7260e6b7c68e467995630c2e52b664d5',
       },

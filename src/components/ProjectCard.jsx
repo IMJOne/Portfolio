@@ -25,7 +25,7 @@ export default function ProjectCard({ project }) {
         <div className={styles.link_wrap}>
           {links.map(({ Icon, name, url }, index) => (
             <a className={styles.link} key={index} href={url} target="_blank" rel="noopener noreferrer">
-              <Icon className={styles.link_icon} width={32} height={32} />
+              <Icon className={styles.link_icon} fontSize={36} />
               <span className={styles.link_name}>{name}</span>
             </a>
           ))}

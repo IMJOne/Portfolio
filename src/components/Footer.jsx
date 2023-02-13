@@ -1,35 +1,31 @@
 import React from 'react';
 import styles from '../styles/Footer.module.css';
 
-import BranchIcon from '../icons/BranchIcon';
-import WarningIcon from '../icons/WarningIcon';
-import ErrorIcon from '../icons/ErrorIcon';
-import PrettierIcon from '../icons/PrettierIcon';
-import NoticeIcon from '../icons/NoticeIcon';
+import { VscSourceControl, VscError, VscWarning, VscCheckAll, VscBellDot } from 'react-icons/vsc';
 
 export default function Footer() {
   return (
     <footer className={styles.footer}>
       <div className={styles.left}>
         <span className={styles.item}>
-          <BranchIcon />
+          <VscSourceControl fontSize={14} />
           main
         </span>
         <span className={styles.item}>
-          <WarningIcon />0
+          <VscError fontSize={16} />0
         </span>
         <span className={styles.item}>
-          <ErrorIcon />0
+          <VscWarning fontSize={16} />0
         </span>
       </div>
       <div className={styles.right}>
         <span className={styles.item}>© 2022 - JungwonCode (IMJOne)</span>
         <span className={styles.item}>
-          <PrettierIcon />
+          <VscCheckAll fontSize={16} />
           Prettier
         </span>
         <span className={styles.item}>
-          <NoticeIcon />
+          <VscBellDot fontSize={16} />
         </span>
       </div>
     </footer>

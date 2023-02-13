@@ -4,8 +4,6 @@ export default function ReadmeIcon(props) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="64 64 896 896"
-      width="18"
-      height="18"
       fill="#007ACC"
       {...props}
     >

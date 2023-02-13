@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       {menu.map(({ Icon, path, text }, index) => (
         <Link className={`${styles.item} ${pathName === path && styles.active}`} key={index} to={path}>
-          <Icon />
+          <Icon width={18} height={18} />
           <span className={styles.name}>{text}</span>
         </Link>
       ))}

@@ -3,9 +3,8 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
 }
-.description {
-  color: var(--text-color);
-  line-height: 1.6;
+.subtitle {
+  text-align: center;
   margin-bottom: 2rem;
 }
 

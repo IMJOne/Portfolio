@@ -129,7 +129,6 @@
     padding: 0.6rem;
   }
   .link_icon {
-    width: 28px;
-    height: 28px;
+    font-size: 1.75rem;
   }
 }
