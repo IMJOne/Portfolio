@@ -12,7 +12,7 @@ export default function About() {
       <h3 className={styles.welcome}>💗 Welcome to JOne's world</h3>
       <div className={styles.introduce}>
         <div className={styles.profile}>
-          <img className={styles.avatar} src="/images/avatar.png" alt="최정원" />
+          <img className={styles.avatar} src="/images/avatar_heart.png" alt="avatar" />
           <h4 className={styles.name}>JungWon Choi</h4>
           <p className={styles.job}>Front-end Developer</p>
         </div>
@@ -33,10 +33,7 @@ export default function About() {
               left={{ icon: <ImDisplay color="#AFAFAF" />, text: 'Front-end' }}
               right={{ icon: <FaServer color="#808080" />, text: 'Back-end' }}
             />
-            <CompareList
-              left={{ icon: <FaReact color="#61DAFB" />, text: 'React' }}
-              right={{ icon: <FaVuejs color="#4FC08D" />, text: 'Vue' }}
-            />
+            <CompareList left={{ icon: <FaReact color="#61DAFB" />, text: 'React' }} right={{ icon: <FaVuejs color="#4FC08D" />, text: 'Vue' }} />
             <CompareList
               left={{ icon: <SiRedux color="#764ABC" />, text: 'Redux' }} //
               right={{ icon: <SiMobx color="#FF9955" />, text: 'MobX' }}

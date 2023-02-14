@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 958px) {
   .article {
-    height: calc(100% - 48px); /* 스크롤바 계산 */
+    height: calc(100% - 44px); /* 스크롤바 계산 */
   }
 }
 @media screen and (max-width: 768px) {
