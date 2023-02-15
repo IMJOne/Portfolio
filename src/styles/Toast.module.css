@@ -1,0 +1,55 @@
+.container {
+  position: fixed;
+  top: 6rem;
+  right: 2rem;
+}
+.popup {
+  position: relative;
+  width: 300px;
+  background: var(--text-color);
+  padding: 1rem 1.5rem;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  color: #252525;
+  font-weight: 500;
+  cursor: pointer;
+}
+.message {
+  margin-bottom: 0.5rem;
+}
+.description {
+  font-size: 0.875rem;
+}
+.close {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+}
+
+:global .mountAnimation {
+  animation: slide 1000ms;
+}
+:global .unmountAnimation {
+  animation: upwards 1000ms;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+    transform: translateY(0%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(20%);
+  }
+}
+@keyframes upwards {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}

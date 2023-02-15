@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import styles from '../styles/Readme.module.css';
+import uuid from 'react-uuid';
 
 import MailIcon from '../icons/MailIcon';
 import PhoneIcon from '../icons/PhoneIcon';
@@ -7,27 +8,23 @@ import LocationIcon from '../icons/LocationIcon';
 
 import { SiGithub, SiNotion } from 'react-icons/si';
 import { RxCopy, RxExternalLink } from 'react-icons/rx';
-import Notification from '../components/Notification';
+import Toast from '../components/Toast';
 
 export default function Readme() {
   const [isCopied, setIsCopied] = useState(false);
-  const [text, setText] = useState('');
+  const [toasts, setToasts] = useState([]);
 
   const copyToClipboard = text =>
     navigator.clipboard.writeText(text).then(() => {
       setIsCopied(true);
-      setText(text);
+      openToast(text);
     });
   const openLink = url => window.open(url, '_blank', 'noopener, noreferrer');
-
-  useEffect(() => {
-    const timer = setTimeout(() => setIsCopied(false), 2000);
-    return () => clearTimeout(timer);
-  }, [isCopied]);
+  const openToast = text => setToasts(prev => [...prev, { id: uuid(), text }]);
 
   return (
     <>
-      {isCopied && <Notification text={text} />}
+      {isCopied && <Toast toasts={toasts} setToast={setToasts} />}
       <h2>Profile 💖</h2>
       <div className={styles.container}>
         <img className={styles.avatar} src="/images/avatar_flower.png" alt="avatar" />
