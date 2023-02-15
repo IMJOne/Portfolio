@@ -15,9 +15,9 @@ export default function ProjectCard({ project }) {
         <div className={styles.info}>IMJOne | 301,235 | ⭐⭐⭐⭐⭐</div>
         <p className={styles.description}>{description}</p>
         <div className={styles.skill_wrap}>
-          {skills.map(({ Icon, name }, index) => (
-            <div className={`${styles.skill} ${name.toLowerCase()}`} key={index}>
-              <Icon width={16} height={16} />
+          {skills.map(({ Icon, color, name }, index) => (
+            <div className={`${styles.skill} ${name.replace(/ /g, '-').toLowerCase()}`} key={index}>
+              <Icon width={16} height={16} color={color} />
               <span className={styles.skill_name}>{name}</span>
             </div>
           ))}

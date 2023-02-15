@@ -38,7 +38,7 @@
 }
 .description {
   font-size: var(--font-small);
-  line-height: 1.4;
+  line-height: 1.6;
   margin: 1rem 0;
 }
 .skill_wrap {
@@ -71,12 +71,6 @@
   display: flex;
   cursor: pointer;
 }
-.link:hover .link_icon {
-  opacity: 0.1;
-}
-.link:hover .link_name {
-  opacity: 1;
-}
 .link_icon {
   transition: opacity 300ms;
 }
@@ -86,8 +80,15 @@
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
   transition: opacity 300ms;
+}
+.link:hover .link_icon {
+  opacity: 0.1;
+}
+.link:hover .link_name {
+  opacity: 1;
 }
 
 :global .html {
@@ -116,6 +117,9 @@
 }
 :global .firebase {
   border: 1px solid #ffca28;
+}
+:global .redux-toolkit {
+  border: 1px solid #764abc;
 }
 
 @media screen and (max-width: 768px) {

@@ -1,11 +1,12 @@
+import { SiRedux, SiTailwindcss } from 'react-icons/si';
+import { BsBootstrapFill } from 'react-icons/bs';
+import { FaSass } from 'react-icons/fa';
+
 import HtmlIcon from '../icons/HtmlIcon';
 import CssIcon from '../icons/CssIcon';
 import JavaScriptIcon from '../icons/JavaScriptIcon';
-import BootstrapIcon from '../icons/BootstrapIcon';
-import SassIcon from '../icons/SassIcon';
 import ReactIcon from '../icons/ReactIcon';
 import PostCssIcon from '../icons/PostCssIcon';
-import TailwindIcon from '../icons/TailwindIcon';
 import FirebaseIcon from '../icons/FirebaseIcon';
 
 import { RxGithubLogo, RxNotionLogo, RxFigmaLogo } from 'react-icons/rx';
@@ -42,12 +43,40 @@ export const projectList = [
   },
   {
     category: 'web',
+    image: 'images/blog.png',
+    title: 'My Blog',
+    description: '나만의 개발 블로그 사이트입니다. Toast UI Editor를 활용하여 포스트 내용을 마크다운 형태로 표현하였습니다.',
+    skills: [
+      { Icon: ReactIcon, name: 'React' },
+      { Icon: SiRedux, color: '#764abc', name: 'Redux Toolkit' },
+      { Icon: FirebaseIcon, name: 'Firebase' },
+    ],
+    links: [
+      {
+        Icon: RxGithubLogo,
+        name: 'Github',
+        url: 'https://github.com/IMJOne/my-blog',
+      },
+      {
+        Icon: MdDesktopWindows,
+        name: 'Demo',
+        url: 'https://jone-dev-blog.netlify.app/',
+      },
+      {
+        Icon: RxNotionLogo,
+        name: 'Notion',
+        url: 'https://www.notion.so/imjone/Blog-1069c963a9d646368e3415bff6739ac7?pvs=4',
+      },
+    ],
+  },
+  {
+    category: 'web',
     image: 'images/lacoste.png',
     title: 'Lacoste',
     description: '라코스테 쇼핑몰 사이트입니다. 로그인 및 로그아웃, 제품 상세 보기, 장바구니 추가 등이 가능합니다.',
     skills: [
       { Icon: ReactIcon, name: 'React' },
-      { Icon: TailwindIcon, name: 'Tailwind' },
+      { Icon: SiTailwindcss, color: '#06b6d4', name: 'Tailwind' },
       { Icon: FirebaseIcon, name: 'Firebase' },
     ],
     links: [
@@ -75,7 +104,7 @@ export const projectList = [
     description: '유튜브 클론 코딩 사이트입니다. 동영상 검색/재생 및 연관된 동영상/댓글 목록 조회가 가능합니다.',
     skills: [
       { Icon: ReactIcon, name: 'React' },
-      { Icon: TailwindIcon, name: 'Tailwind' },
+      { Icon: SiTailwindcss, color: '#06b6d4', name: 'Tailwind' },
       { Icon: FirebaseIcon, name: 'Firebase' },
     ],
     links: [
@@ -244,7 +273,7 @@ export const projectList = [
       { Icon: HtmlIcon, name: 'HTML' },
       { Icon: CssIcon, name: 'CSS' },
       { Icon: JavaScriptIcon, name: 'JavaScript' },
-      { Icon: BootstrapIcon, name: 'Bootstrap' },
+      { Icon: BsBootstrapFill, color: '#7952b3', name: 'Bootstrap' },
     ],
     links: [
       {
@@ -355,7 +384,7 @@ export const projectList = [
     description: '카카오톡 디자인을 참고하여 제작한 베어톡입니다. SCSS를 사용하여 빠르게 스타일링 하였습니다.',
     skills: [
       { Icon: HtmlIcon, name: 'HTML' },
-      { Icon: SassIcon, name: 'SCSS' },
+      { Icon: FaSass, color: '#cc6699', name: 'SCSS' },
       { Icon: JavaScriptIcon, name: 'JavaScript' },
     ],
     links: [
