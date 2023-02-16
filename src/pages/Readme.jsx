@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import styles from '../styles/Readme.module.css';
 import uuid from 'react-uuid';
 
@@ -11,20 +11,26 @@ import { RxCopy, RxExternalLink } from 'react-icons/rx';
 import Toast from '../components/Toast';
 
 export default function Readme() {
-  const [isCopied, setIsCopied] = useState(false);
-  const [toasts, setToasts] = useState([]);
+  const [, setIsCopied] = useState(false);
+  const toasts = useRef([]);
 
-  const copyToClipboard = text =>
-    navigator.clipboard.writeText(text).then(() => {
-      setIsCopied(true);
-      openToast(text);
-    });
+  const closeToast = id => {
+    const filteredToast = toasts.current.filter(toast => toast.id !== id);
+    toasts.current = filteredToast;
+    setIsCopied(prev => !prev);
+  };
+  const openToast = text => {
+    const id = uuid();
+    toasts.current = [...toasts.current, { id, text }];
+    setIsCopied(prev => !prev);
+    setTimeout(() => closeToast(id), 3000);
+  };
+  const copyToClipboard = text => navigator.clipboard.writeText(text).then(() => openToast(text));
   const openLink = url => window.open(url, '_blank', 'noopener, noreferrer');
-  const openToast = text => setToasts(prev => [...prev, { id: uuid(), text }]);
 
   return (
     <>
-      {isCopied && <Toast toasts={toasts} setToast={setToasts} />}
+      <Toast toasts={toasts.current} closeToast={closeToast} />
       <h2>Profile 💖</h2>
       <div className={styles.container}>
         <img className={styles.avatar} src="/images/avatar_flower.png" alt="avatar" />

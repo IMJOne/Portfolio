@@ -1,9 +1,7 @@
 import styles from '../styles/Toast.module.css';
 import { AiOutlineClose } from 'react-icons/ai';
 
-export default function Toast({ toasts, setToast }) {
-  const closeToast = id => setToast(toasts.filter(toast => toast.id !== id));
-
+export default function Toast({ toasts, closeToast }) {
   return (
     <div className={styles.container}>
       {toasts.map(({ id, text }) => (
