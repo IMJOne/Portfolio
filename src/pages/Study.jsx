@@ -8,7 +8,6 @@ export default function Study() {
   return (
     <div>
       <h2>Study Record 📚</h2>
-      <h3 className={styles.subtitle}>Click to go Notion page 📄</h3>
       <div className={styles.container}>
         {notion.map(({ image, title, url }, index) => (
           <Note key={index} image={image} title={title} url={url} />

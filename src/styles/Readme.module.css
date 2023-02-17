@@ -1,9 +1,9 @@
 .container {
-  height: calc(100% - 180px);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-top: 8rem;
 }
 .contact {
   text-align: center;
@@ -48,7 +48,7 @@
 @media screen and (max-width: 1023px) {
   .container {
     flex-direction: column;
-    height: calc(100% - 90px);
+    margin-top: 4rem;
   }
   .avatar {
     width: 200px;
