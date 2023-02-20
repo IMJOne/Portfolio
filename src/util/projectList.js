@@ -21,7 +21,6 @@ export const projectList = [
     skills: [
       { Icon: ReactIcon, name: 'React' },
       { Icon: PostCssIcon, name: 'PostCSS' },
-      { Icon: FirebaseIcon, name: 'Firebase' },
     ],
     links: [
       {
@@ -78,7 +77,7 @@ export const projectList = [
     category: 'web',
     image: 'images/lacoste.png',
     title: 'Lacoste',
-    description: '라코스테 쇼핑몰 사이트입니다. 로그인 및 로그아웃, 제품 상세 보기, 장바구니 추가 등이 가능합니다.',
+    description: '라코스테 쇼핑몰 사이트입니다. 로그인한 사용자에 한해 장바구니 서비스를 이용할 수 있도록 구현하였습니다.',
     skills: [
       { Icon: ReactIcon, name: 'React' },
       { Icon: SiTailwindcss, color: '#06b6d4', name: 'Tailwind' },
@@ -106,7 +105,7 @@ export const projectList = [
     category: 'web',
     image: 'images/youtube.png',
     title: 'YouTube',
-    description: '유튜브 클론 코딩 사이트입니다. 동영상 검색/재생 및 연관된 동영상/댓글 목록 조회가 가능합니다.',
+    description: '유튜브 클론 코딩 사이트입니다. 동영상 검색 및 재생이 가능하며, 해당 동영상의 댓글 목록 또한 볼 수 있습니다.',
     skills: [
       { Icon: ReactIcon, name: 'React' },
       { Icon: SiTailwindcss, color: '#06b6d4', name: 'Tailwind' },
@@ -134,7 +133,7 @@ export const projectList = [
     category: 'toy',
     image: 'images/diary.png',
     title: 'Emotion Diary',
-    description: '오늘의 감정을 함께 기록할 수 있는 감정 일기장입니다. 일기 추가/수정/삭제/저장이 가능합니다.',
+    description: '오늘의 감정을 함께 기록할 수 있는 감정 일기장입니다. 원하는 일기만 필터링하여 조회해볼 수 있습니다.',
     skills: [
       { Icon: ReactIcon, name: 'React' },
       { Icon: PostCssIcon, name: 'PostCSS' },
@@ -162,7 +161,7 @@ export const projectList = [
     category: 'toy',
     image: 'images/todo-react.png',
     title: 'Todo List (React)',
-    description: '리액트 버전 투두 리스트입니다. 진행 상황 필터링 및 다크모드 기능이 새롭게 추가되었습니다.',
+    description: '리액트 버전 투두 리스트입니다. 리스트별 진행 상황 필터링 및 다크 모드 기능이 새롭게 추가되었습니다.',
     skills: [
       { Icon: ReactIcon, name: 'React' },
       { Icon: PostCssIcon, name: 'PostCSS' },
@@ -189,7 +188,7 @@ export const projectList = [
     category: 'toy',
     image: 'images/tetris.png',
     title: 'Tetris',
-    description: '바닐라 자바스크립트로 제작한 테트리스 게임입니다. 배열과 구조 분해 할당을 통해 블럭들을 관리합니다.',
+    description: '추억의 테트리스 게임입니다. 게임 시작 시 격자판을 동적으로 생성하고, 배열에서 랜덤한 블록이 렌더링됩니다.',
     skills: [
       { Icon: HtmlIcon, name: 'HTML' },
       { Icon: CssIcon, name: 'CSS' },
@@ -217,7 +216,7 @@ export const projectList = [
     category: 'toy',
     image: 'images/fish.png',
     title: 'Catch the fish!',
-    description: '바닐라 자바스크립트로 제작한 미니 게임입니다. 클래스 문법을 통해 함수들을 기능별로 모듈화하였습니다.',
+    description: '바닐라 자바스크립트로 제작한 미니 게임입니다. 제한 시간 내에 성게를 피해 모든 물고기를 클릭해야 합니다.',
     skills: [
       { Icon: HtmlIcon, name: 'HTML' },
       { Icon: CssIcon, name: 'CSS' },
@@ -245,7 +244,7 @@ export const projectList = [
     category: 'toy',
     image: 'images/paint.png',
     title: 'Paint app',
-    description: '바닐라 자바스크립트로 제작한 미니 그림판입니다. 사용자의 눈을 보호하기 위한 다크모드를 지원합니다.',
+    description: 'Canvas를 활용하여 제작한 미니 그림판입니다. 사용자의 눈을 보호하기 위한 다크 모드 테마를 지원합니다.',
     skills: [
       { Icon: HtmlIcon, name: 'HTML' },
       { Icon: CssIcon, name: 'CSS' },
@@ -273,7 +272,7 @@ export const projectList = [
     category: 'toy',
     image: 'images/lovetype.png',
     title: 'Twelve love type',
-    description: '12가지 연애 유형 심리테스트 사이트입니다. 결과 화면을 카카오톡으로 공유할 수 있습니다.',
+    description: '12가지 연애 유형을 알아볼 수 있는 심리 테스트 사이트입니다. 카카오톡으로 결과를 공유할 수 있습니다.',
     skills: [
       { Icon: HtmlIcon, name: 'HTML' },
       { Icon: CssIcon, name: 'CSS' },
@@ -302,7 +301,7 @@ export const projectList = [
     category: 'toy',
     image: 'images/todo.png',
     title: 'TO-DO List',
-    description: '심플 투두 리스트입니다. 추가/삭제된 리스트들이 로컬 스토리지에 저장됩니다.',
+    description: '바닐라 자바스크립트로 제작한 투두 리스트입니다. 로컬 스토리지를 활용하여 데이터가 유지되도록 제작하였습니다.',
     skills: [
       { Icon: HtmlIcon, name: 'HTML' },
       { Icon: CssIcon, name: 'CSS' },
@@ -330,7 +329,7 @@ export const projectList = [
     category: 'web',
     image: 'images/apple.png',
     title: 'Apple',
-    description: 'Apple iPad 소개 페이지입니다. 별도의 라이브러리 사용 없이 바닐라 자바스크립트로 제작되었습니다.',
+    description: 'Apple iPad Pro 소개 페이지입니다. 별도의 라이브러리 사용 없이 바닐라 자바스크립트로 제작되었습니다.',
     skills: [
       { Icon: HtmlIcon, name: 'HTML' },
       { Icon: CssIcon, name: 'CSS' },
@@ -417,37 +416,9 @@ export const projectList = [
   },
   {
     category: 'web',
-    image: 'images/portfolio.png',
-    title: 'Portfolio (2021 ver)',
-    description: '저의 첫 포트폴리오 사이트입니다. 스크롤값을 감시하며 현재 섹션에 따라 메뉴가 활성화됩니다.',
-    skills: [
-      { Icon: HtmlIcon, name: 'HTML' },
-      { Icon: CssIcon, name: 'CSS' },
-      { Icon: JavaScriptIcon, name: 'JavaScript' },
-    ],
-    links: [
-      {
-        Icon: RxGithubLogo,
-        name: 'Github',
-        url: 'https://github.com/IMJOne/notion',
-      },
-      {
-        Icon: MdDesktopWindows,
-        name: 'Demo',
-        url: 'https://imjone.github.io/notion/',
-      },
-      {
-        Icon: RxNotionLogo,
-        name: 'Notion',
-        url: 'https://www.notion.so/imjone/Notion-7260e6b7c68e467995630c2e52b664d5',
-      },
-    ],
-  },
-  {
-    category: 'web',
     image: 'images/notion.png',
     title: 'Notion',
-    description: 'Notion 공식 웹사이트를 클론 코딩했습니다. 모바일과 PC 모두 보기 편하도록 반응형으로 제작되었습니다.',
+    description: 'Notion 클론 코딩 사이트입니다. 모바일 및 태블릿, PC 환경 모두 보기 편하도록 반응형으로 제작되었습니다.',
     skills: [
       { Icon: HtmlIcon, name: 'HTML' },
       { Icon: CssIcon, name: 'CSS' },
@@ -473,9 +444,9 @@ export const projectList = [
   },
   {
     category: 'web',
-    image: 'images/binggrae.png',
-    title: 'Binggrae',
-    description: '빙그레 공식 웹사이트를 클론 코딩했습니다. 모바일과 PC 모두 보기 편하도록 반응형으로 제작되었습니다.',
+    image: 'images/urban.png',
+    title: 'Urban Launderette',
+    description: '어반 런드렛 클론 코딩 사이트입니다. PC 및 모바일 환경에서 가장 최적화한 레이아웃으로 구성되어 있습니다.',
     skills: [
       { Icon: HtmlIcon, name: 'HTML' },
       { Icon: CssIcon, name: 'CSS' },
