@@ -12,7 +12,7 @@ export default function About() {
       <h3 className={styles.welcome}>💗 Welcome to JOne's world</h3>
       <div className={styles.introduce}>
         <div className={styles.profile}>
-          <img className={styles.avatar} src="/images/avatar_heart.png" alt="avatar" />
+          <img className={styles.avatar} src="/images/avatar.png" alt="avatar" />
           <h4 className={styles.name}>JungWon Choi</h4>
           <p className={styles.job}>Front-end Developer</p>
         </div>

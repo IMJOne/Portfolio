@@ -35,6 +35,11 @@ export const projectList = [
         url: '#',
       },
       {
+        Icon: RxNotionLogo,
+        name: 'Notion',
+        url: 'https://www.notion.so/imjone/Portfolio-VSCode-ver-06aff04aff4b491aa502af98ba8ba6d6?pvs=4',
+      },
+      {
         Icon: RxFigmaLogo,
         name: 'Figma',
         url: 'https://www.figma.com/proto/9DLDm5AkSNwldlbeTGOOQW/Portfolio?node-id=10%3A1555&scaling=contain&page-id=0%3A1&starting-point-node-id=10%3A1555',
@@ -202,7 +207,7 @@ export const projectList = [
         url: 'https://imjone.github.io/tetris/',
       },
       {
-        Icon: RxFigmaLogo,
+        Icon: RxNotionLogo,
         name: 'Figma',
         url: 'https://www.notion.so/imjone/2d36893b850046a882a20f1f0451a029',
       },
@@ -369,6 +374,11 @@ export const projectList = [
         Icon: MdDesktopWindows,
         name: 'Demo',
         url: 'https://imjone.github.io/starbucks/',
+      },
+      {
+        Icon: RxNotionLogo,
+        name: 'Notion',
+        url: 'https://www.notion.so/imjone/Starbucks-68398a8c085f4045bc1da00a6173849e?pvs=4',
       },
       {
         Icon: RxFigmaLogo,

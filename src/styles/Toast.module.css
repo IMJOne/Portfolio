@@ -13,6 +13,7 @@
   color: #252525;
   font-weight: 500;
   cursor: pointer;
+  animation: mountAnimation 600ms ease-in-out;
 }
 .message {
   margin-bottom: 0.5rem;
@@ -26,30 +27,34 @@
   right: 1.5rem;
 }
 
-:global .mountAnimation {
-  animation: slide 1000ms;
+:global .mount {
+  animation: mountAnimation 600ms ease-in-out;
 }
-:global .unmountAnimation {
-  animation: upwards 1000ms;
+:global .unmount {
+  animation: unmountAnimation 600ms ease-in-out;
 }
 
-@keyframes slide {
-  from {
+@keyframes mountAnimation {
+  0% {
     opacity: 0;
-    transform: translateY(0%);
+    transform: translateX(30px);
   }
-  to {
+  50% {
+    opacity: 0.5;
+    transform: translateX(-30px);
+  }
+  100% {
     opacity: 1;
-    transform: translateY(20%);
+    transform: translateX(0px);
   }
 }
-@keyframes upwards {
-  from {
+@keyframes unmountAnimation {
+  0% {
+    transform: translateX(0px);
     opacity: 1;
-    transform: translateY(0);
   }
-  to {
+  100% {
+    transform: translateX(-30px);
     opacity: 0;
-    transform: translateY(-100%);
   }
 }

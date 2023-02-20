@@ -22,11 +22,7 @@ export default function Projects() {
       <h2>Projects 💻</h2>
       <div className={styles.filter_wrap}>
         {categories.map((category, index) => (
-          <button
-            key={index}
-            className={`${styles.filter} ${filter === category && styles.selected}`}
-            onClick={() => setFilter(category)}
-          >
+          <button key={index} className={`${styles.filter} ${filter === category && styles.selected}`} onClick={() => setFilter(category)}>
             {category}
             <span className={styles.count}>{getProjectCount(category)}</span>
           </button>

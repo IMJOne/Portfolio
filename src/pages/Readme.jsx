@@ -34,16 +34,16 @@ export default function Readme() {
       <Toast toasts={toasts.current} closeToast={closeToast} />
       <h2>Profile 💖</h2>
       <div className={styles.container}>
-        <img className={styles.avatar} src="/images/avatar_flower.png" alt="avatar" />
+        <div className={styles.photo}></div>
         <div className={styles.contact}>
           <h3 className={styles.name}>최정원 / Choi Jung Won</h3>
           <h4 className={styles.pharase}>✨ 좋은 동료들과 소통하며 힘이 되고 싶습니다.</h4>
           <div>
-            <SocialList LeftIcon={MailIcon} text="mompapa7@gmail.com" RightIcon={<RxCopy />} onClick={copyToClipboard} />
-            <SocialList LeftIcon={PhoneIcon} text="010-8060-6075" RightIcon={<RxCopy />} onClick={copyToClipboard} />
-            <SocialList LeftIcon={SiGithub} text="https://github.com/IMJOne" RightIcon={<RxExternalLink />} onClick={openLink} fill="#ced4da" />
-            <SocialList LeftIcon={SiNotion} text="https://www.notion.so/imjone" RightIcon={<RxExternalLink />} onClick={openLink} fill="#ffffff" />
-            <SocialList LeftIcon={VelogIcon} text="https://velog.io/@jone" RightIcon={<RxExternalLink />} onClick={openLink} fill="#1EBF8F" />
+            <SocialList LeftIcon={MailIcon} RightIcon={<RxCopy />} text="mompapa7@gmail.com" onClick={copyToClipboard} />
+            <SocialList LeftIcon={PhoneIcon} RightIcon={<RxCopy />} text="010-8060-6075" onClick={copyToClipboard} />
+            <SocialList LeftIcon={SiGithub} RightIcon={<RxExternalLink />} text="https://github.com/IMJOne" onClick={openLink} fill="#ced4da" />
+            <SocialList LeftIcon={SiNotion} RightIcon={<RxExternalLink />} text="https://www.notion.so/imjone" onClick={openLink} fill="#ffffff" />
+            <SocialList LeftIcon={VelogIcon} RightIcon={<RxExternalLink />} text="https://velog.io/@jone" onClick={openLink} fill="#1EBF8F" />
             <SocialList LeftIcon={LocationIcon} text="Gangseo-gu, Seoul" />
           </div>
         </div>
@@ -52,7 +52,7 @@ export default function Readme() {
   );
 }
 
-function SocialList({ LeftIcon, text, RightIcon, onClick, ...props }) {
+function SocialList({ LeftIcon, RightIcon, text, onClick, ...props }) {
   return (
     <div className={styles.social}>
       <LeftIcon width={32} height={32} fontSize={32} {...props} />

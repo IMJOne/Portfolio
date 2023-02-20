@@ -21,7 +21,7 @@ export const notion = [
   },
   {
     image: 'images/page_error.png',
-    title: 'Error Note] 에러 노트 정리',
+    title: '[Error Note] 에러 노트 정리',
     url: 'https://www.notion.so/imjone/Error-Note-7d12a9a9e92c47be8c31318ebe58a01f',
   },
   {
