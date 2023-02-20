@@ -13,7 +13,7 @@
   color: #252525;
   font-weight: 500;
   cursor: pointer;
-  animation: mountAnimation 600ms ease-in-out;
+  animation: mount 600ms ease-in-out;
 }
 .message {
   margin-bottom: 0.5rem;
@@ -27,14 +27,7 @@
   right: 1.5rem;
 }
 
-:global .mount {
-  animation: mountAnimation 600ms ease-in-out;
-}
-:global .unmount {
-  animation: unmountAnimation 600ms ease-in-out;
-}
-
-@keyframes mountAnimation {
+@keyframes mount {
   0% {
     opacity: 0;
     transform: translateX(30px);
@@ -46,15 +39,5 @@
   100% {
     opacity: 1;
     transform: translateX(0px);
-  }
-}
-@keyframes unmountAnimation {
-  0% {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-  100% {
-    transform: translateX(-30px);
-    opacity: 0;
   }
 }
