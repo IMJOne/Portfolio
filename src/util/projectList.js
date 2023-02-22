@@ -26,17 +26,17 @@ export const projectList = [
       {
         Icon: RxGithubLogo,
         name: 'Github',
-        url: '#',
+        url: 'https://github.com/IMJOne/portfolio',
       },
       {
         Icon: MdDesktopWindows,
         name: 'Demo',
-        url: '#',
+        url: 'https://jone-vscode-portfolio.netlify.app/',
       },
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/Portfolio-VSCode-ver-06aff04aff4b491aa502af98ba8ba6d6?pvs=4',
+        url: 'https://imjone.notion.site/Portfolio-VSCode-ver-06aff04aff4b491aa502af98ba8ba6d6',
       },
       {
         Icon: RxFigmaLogo,
@@ -69,7 +69,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/Blog-1069c963a9d646368e3415bff6739ac7?pvs=4',
+        url: 'https://imjone.notion.site/Blog-1069c963a9d646368e3415bff6739ac7',
       },
     ],
   },
@@ -97,7 +97,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/Lacoste-9d78c5adf550498580463c0f9d0d82eb?pvs=4',
+        url: 'https://imjone.notion.site/Lacoste-9d78c5adf550498580463c0f9d0d82eb',
       },
     ],
   },
@@ -125,7 +125,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/Youtube-ad0edcc0e5924199a9e4962f6c298b9b?pvs=4',
+        url: 'https://imjone.notion.site/Youtube-ad0edcc0e5924199a9e4962f6c298b9b',
       },
     ],
   },
@@ -153,7 +153,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/Emotion-diary-8a01a0f8e2fd43e2b84576eb631f6fb2',
+        url: 'https://imjone.notion.site/Emotion-diary-8a01a0f8e2fd43e2b84576eb631f6fb2',
       },
     ],
   },
@@ -180,7 +180,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/React-TO-DO-LIST-bd42d365689243d0b7547d115cefee7b',
+        url: 'https://imjone.notion.site/React-TO-DO-LIST-bd42d365689243d0b7547d115cefee7b',
       },
     ],
   },
@@ -208,7 +208,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Figma',
-        url: 'https://www.notion.so/imjone/2d36893b850046a882a20f1f0451a029',
+        url: 'https://imjone.notion.site/Tetris-2d36893b850046a882a20f1f0451a029',
       },
     ],
   },
@@ -236,7 +236,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/0f2e6609e83d43e2838d933a9c9c5b39',
+        url: 'https://imjone.notion.site/Catch-the-fish-0f2e6609e83d43e2838d933a9c9c5b39',
       },
     ],
   },
@@ -264,7 +264,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/3b7fa527999141cbbe0b2885a43fed05',
+        url: 'https://imjone.notion.site/Paint-app-3b7fa527999141cbbe0b2885a43fed05',
       },
     ],
   },
@@ -293,7 +293,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/1889c7cd3b084a5ba8196bf05de98ffb',
+        url: 'https://imjone.notion.site/Twelve-love-type-1889c7cd3b084a5ba8196bf05de98ffb',
       },
     ],
   },
@@ -321,7 +321,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/d5d802305fa6461b8c3b410fa96528e6',
+        url: 'https://imjone.notion.site/TO-DO-LIST-d5d802305fa6461b8c3b410fa96528e6',
       },
     ],
   },
@@ -349,7 +349,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/Apple-com-ba7b279ed3c643eb88a3439cb004d3c3',
+        url: 'https://imjone.notion.site/Apple-ba7b279ed3c643eb88a3439cb004d3c3',
       },
     ],
   },
@@ -377,7 +377,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/Starbucks-68398a8c085f4045bc1da00a6173849e?pvs=4',
+        url: 'https://imjone.notion.site/Starbucks-68398a8c085f4045bc1da00a6173849e',
       },
       {
         Icon: RxFigmaLogo,
@@ -410,7 +410,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/BearTalk-31aa513be24941818f2ee5c65ec71eef',
+        url: 'https://imjone.notion.site/BearTalk-31aa513be24941818f2ee5c65ec71eef',
       },
     ],
   },
@@ -438,35 +438,7 @@ export const projectList = [
       {
         Icon: RxNotionLogo,
         name: 'Notion',
-        url: 'https://www.notion.so/imjone/Notion-7260e6b7c68e467995630c2e52b664d5',
-      },
-    ],
-  },
-  {
-    category: 'web',
-    image: 'images/urban.png',
-    title: 'Urban Launderette',
-    description: '어반 런드렛 클론 코딩 사이트입니다. PC 및 모바일 환경에서 가장 최적화한 레이아웃으로 구성되어 있습니다.',
-    skills: [
-      { Icon: HtmlIcon, name: 'HTML' },
-      { Icon: CssIcon, name: 'CSS' },
-      { Icon: JavaScriptIcon, name: 'JavaScript' },
-    ],
-    links: [
-      {
-        Icon: RxGithubLogo,
-        name: 'Github',
-        url: 'https://github.com/IMJOne/notion',
-      },
-      {
-        Icon: MdDesktopWindows,
-        name: 'Demo',
-        url: 'https://imjone.github.io/notion/',
-      },
-      {
-        Icon: RxNotionLogo,
-        name: 'Notion',
-        url: 'https://www.notion.so/imjone/Notion-7260e6b7c68e467995630c2e52b664d5',
+        url: 'https://imjone.notion.site/Notion-7260e6b7c68e467995630c2e52b664d5',
       },
     ],
   },

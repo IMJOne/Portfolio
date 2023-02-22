@@ -42,7 +42,7 @@ export default function Readme() {
             <SocialList LeftIcon={MailIcon} RightIcon={<RxCopy />} text="mompapa7@gmail.com" onClick={copyToClipboard} />
             <SocialList LeftIcon={PhoneIcon} RightIcon={<RxCopy />} text="010-8060-6075" onClick={copyToClipboard} />
             <SocialList LeftIcon={SiGithub} RightIcon={<RxExternalLink />} text="https://github.com/IMJOne" onClick={openLink} fill="#ced4da" />
-            <SocialList LeftIcon={SiNotion} RightIcon={<RxExternalLink />} text="https://www.notion.so/imjone" onClick={openLink} fill="#ffffff" />
+            <SocialList LeftIcon={SiNotion} RightIcon={<RxExternalLink />} text="https://bit.ly/notion-jone" onClick={openLink} fill="#ffffff" />
             <SocialList LeftIcon={VelogIcon} RightIcon={<RxExternalLink />} text="https://velog.io/@jone" onClick={openLink} fill="#1EBF8F" />
             <SocialList LeftIcon={LocationIcon} text="Gangseo-gu, Seoul" />
           </div>
