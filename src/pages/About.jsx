@@ -19,7 +19,7 @@ export default function About() {
         <div className={styles.text}>
           <strong className={styles.slogan}>불굴의 의지, 뜨거운 열정! 24시간이 모자란 개발자 😎</strong>
           <p>
-            👋 안녕하세요! 코딩이 즐거운 프론트엔드 개발자 최정원입니다.
+            👋 안녕하세요! 꿈을 코딩하는 프론트엔드 개발자 최정원입니다.
             <br />
             사용자 친화적인 UI/UX를 직접 구현해보고자 개발자의 길을 걷게 되었습니다.
             <br />

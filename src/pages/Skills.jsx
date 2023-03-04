@@ -8,7 +8,6 @@ const topBadgeList = [
   { text: 'TypeScript', badgeColor: '3178C6' },
   { text: 'jQuery', badgeColor: '0769AD' },
   { text: 'React', badgeColor: '61DAFB', logoColor: 'black' },
-  { text: 'Node.js', badgeColor: '339933' },
 ];
 const middleBadgeList = [
   { text: 'Bootstrap', badgeColor: '7952B3' },
