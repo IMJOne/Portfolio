@@ -38,7 +38,7 @@
 
 ## 💻 소스 코드
 
-전체 코드 보러 가기 👉 [Notion](https://imjone.notion.site/Portfolio-VSCode-ver-06aff04aff4b491aa502af98ba8ba6d6)
+전체 코드 보러 가기 👉 [Notion](https://imjone.notion.site/Portfolio-VSCode-ver-06aff04aff4b491aa502af98ba8ba6d6?pvs=4)
 
 ### 📍 텍스트 타이핑 애니메이션
 
